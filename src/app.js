@@ -34,6 +34,6 @@ app.get('*', (req, res) => {
     res.render('404');
 });
 
-app.listen('1337', () => {
+app.listen(port, () => {
     console.log(`App listening at Port: ${port}...`);
 });
